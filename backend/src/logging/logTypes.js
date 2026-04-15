@@ -1,0 +1,16 @@
+/**
+ * Log event type constants
+ */
+const EventTypes = {
+  INTERNAL: 'INTERNAL',
+  SEND: 'SEND',
+  RECEIVE: 'RECEIVE',
+  SNAPSHOT_MARKER: 'SNAPSHOT_MARKER',
+  SNAPSHOT_STATE: 'SNAPSHOT_STATE',
+  NODE_CRASH: 'NODE_CRASH',
+  NODE_RECOVER: 'NODE_RECOVER',
+  MESSAGE_DROP: 'MESSAGE_DROP',
+  REPLAY: 'REPLAY',
+};
+
+module.exports = EventTypes;
